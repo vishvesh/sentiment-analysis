@@ -40,6 +40,8 @@ Response:-
 ### The Database Entity that I am using with MySQL is below, just in case you'd like to see Entity been persisted -
 
 ```sql
+CREATE DATABASE IF NOT EXISTS `sentimentanalysis`;
+
 CREATE TABLE IF NOT EXISTS `sentimentanalysis`.`sentimentanalysis` (
   `url` VARCHAR(100) NOT NULL,
   `callback_url` VARCHAR(100) NULL,
