@@ -37,7 +37,7 @@ Response:-
 }
 ```
 
-### The Database Entity that I am using with MySQL is below, just in case you'd like to see Entity been persisted -
+### The Database Entity that I am using with MySQL is below for persistency -
 
 ```sql
 CREATE DATABASE IF NOT EXISTS `sentimentanalysis`;
