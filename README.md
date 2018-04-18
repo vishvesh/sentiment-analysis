@@ -1,8 +1,5 @@
-   ____             __    _                     __         ___                __               _      
-  / __/ ___   ___  / /_  (_)  __ _  ___   ___  / /_       / _ |  ___  ___ _  / /  __ __  ___  (_)  ___
- _\ \  / -_) / _ \/ __/ / /  /  ' \/ -_) / _ \/ __/      / __ | / _ \/ _ `/ / /  / // / (_-< / /  (_-<
-/___/  \__/ /_//_/\__/ /_/  /_/_/_/\__/ /_//_/\__/      /_/ |_|/_//_/\_,_/ /_/   \_, / /___//_/  /___/
-                                                                                /___/                  
+### Sentiment Analysis Spring-Boot Application using Aylien Text API and JSoup
+
 ### Steps to compile and run the app:-
     Compile - mvn -e -X clean install
     Run - mvn spring-boot:run
@@ -29,14 +26,14 @@ Once you run the application, the REST Endpoints and their responses that were e
 Response:-
 ```java
 {
-	"pageTitle": "Google",
-	"description": "Search the world's information, including webpages, images, videos and more. Google has many special features to help you find exactly what you're looking for.",
-	"author": "",
-	"polarity": "neutral",
-	"subjectivity": "subjective",
-	"text": "Say \"Ok Google\" to start a voice search.Search without lifting a finger. When you say \"Ok Google,\" Chrome will search for what you say next.",
-	"polarity_confidence": "0.7664952874183655",
-	"subjectivity_confidence": "1.0"
+  "pageTitle": "Google",
+  "description": "Search the world's information, including webpages, images, videos and more. Google has many special features to help you find exactly what you're looking for.",
+  "author": "",
+  "polarity": "neutral",
+  "subjectivity": "subjective",
+  "text": "Say \"Ok Google\" to start a voice search.Search without lifting a finger. When you say \"Ok Google,\" Chrome will search for what you say next.",
+  "polarity_confidence": "0.7664952874183655",
+  "subjectivity_confidence": "1.0"
 }
 ```
 
